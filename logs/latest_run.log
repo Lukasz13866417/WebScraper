@@ -1,0 +1,804 @@
+================================================================================
+TIME: 2025-03-06 22:09:57
+Starting. Scraping TIOBE
+TIOBE data scraped
+Basic info scraped: 
+ Now that the world needs to crunch more and more numbers per second, and hardware is not evolving fast enough, speed of programs is getting important. Having said this, it is not surprising that the fast programming languages are gaining ground in the TIOBE index. Programming language C++ climbed to position 2 recently, Go has become a steady top 10 player, and Rust is at an all-time high of 1.47%. Moreover, fast languages Mojo and Zig are knocking on the top 50 door at positions #51 and #56, respectively.
+You might wonder how Python, known as a slow language, is able to survive next to these race monsters. This is because there is another driver nowadays except for performance: how easy is it to learn a new programming language. Apart from crunching more numbers, the world also needs more programmers. Developing applications completely in AI is not possible yet. Hence, the demand for new programmers is still very high. Since the number of graduated software engineers is lower than is needed, all kind of non-software engineers are jumping on the programming bandwagon, and their favorite language is Python. This is why Python is here to stay.
+The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular web sites Google, Amazon, Wikipedia, Bing and more than 20 others are used to calculate the ratings. It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
+The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.
+Language list scraped: 
+ [<langinfo.LangMetadata object at 0x7b18ebbf2900>, <langinfo.LangMetadata object at 0x7b18ebbf29c0>, <langinfo.LangMetadata object at 0x7b18ebbf2a80>, <langinfo.LangMetadata object at 0x7b18ebbf2b40>, <langinfo.LangMetadata object at 0x7b18ebbf2c00>, <langinfo.LangMetadata object at 0x7b18ebbf2c90>, <langinfo.LangMetadata object at 0x7b18ebbf2d50>, <langinfo.LangMetadata object at 0x7b18ebbf2e10>, <langinfo.LangMetadata object at 0x7b18ebbf2ea0>, <langinfo.LangMetadata object at 0x7b18ebbf2f30>, <langinfo.LangMetadata object at 0x7b18ebbf2ff0>, <langinfo.LangMetadata object at 0x7b18ebbf30b0>, <langinfo.LangMetadata object at 0x7b18ebbf3170>, <langinfo.LangMetadata object at 0x7b18ebbf3230>, <langinfo.LangMetadata object at 0x7b18ebbf32f0>, <langinfo.LangMetadata object at 0x7b18ebbf33b0>, <langinfo.LangMetadata object at 0x7b18ebbf3440>, <langinfo.LangMetadata object at 0x7b18ebbf3500>, <langinfo.LangMetadata object at 0x7b18ebbf35c0>, <langinfo.LangMetadata object at 0x7b18ebbf3680>]
+Searching for detailed info about languages
+🔎 Searching for info on: Python...
+⏳ Sleeping for 7.69 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Python_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Python_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.python.org/doc/essays/blurb/
+🌍 Scraping content from: https://www.python.org/doc/essays/blurb/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/python/python_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/python/python_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C++...
+⏳ Sleeping for 7.09 seconds before searching...
+Found url: https://www.w3schools.com/cpp/cpp_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/cpp/cpp_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.tutorialspoint.com/cplusplus/cpp_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/cplusplus/cpp_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/introduction-to-c-programming-language/
+🌍 Scraping content from: https://www.geeksforgeeks.org/introduction-to-c-programming-language/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Java...
+⏳ Sleeping for 9.11 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Java_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Java_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/java/java_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/java/java_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.tutorialspoint.com/java/java_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/java/java_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C...
+⏳ Sleeping for 8.23 seconds before searching...
+Found url: https://www.tutorialspoint.com/cprogramming/c_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/cprogramming/c_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/C_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/C_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/c/c_intro.php
+🌍 Scraping content from: https://www.w3schools.com/c/c_intro.php
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C#...
+⏳ Sleeping for 7.46 seconds before searching...
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-javascript-developers
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-javascript-developers
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: JavaScript...
+⏳ Sleeping for 8.24 seconds before searching...
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#data_types
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#data_types
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#grammar
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#grammar
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: SQL...
+⏳ Sleeping for 7.89 seconds before searching...
+Found url: https://www.w3schools.com/sql/sql_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/sql/sql_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/SQL
+🌍 Scraping content from: https://en.wikipedia.org/wiki/SQL
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learntocodewith.me/posts/sql-guide/
+🌍 Scraping content from: https://learntocodewith.me/posts/sql-guide/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Go...
+⏳ Sleeping for 8.06 seconds before searching...
+Found url: https://go.dev/
+🌍 Scraping content from: https://go.dev/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Go_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Go_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/go-programming-language-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/go-programming-language-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Delphi/Object Pascal...
+⏳ Sleeping for 8.68 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Delphi_(software)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Delphi_(software)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Object_Pascal
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Object_Pascal
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/History_of_Delphi_(software)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/History_of_Delphi_(software)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Visual Basic...
+⏳ Sleeping for 9.37 seconds before searching...
+Found url: https://www.techtarget.com/whatis/definition/Visual-Basic-VB
+🌍 Scraping content from: https://www.techtarget.com/whatis/definition/Visual-Basic-VB
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Visual_Basic_(classic)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Visual_Basic_(classic)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Fortran...
+⏳ Sleeping for 9.28 seconds before searching...
+Found url: https://fortran-lang.org/
+🌍 Scraping content from: https://fortran-lang.org/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Fortran
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Fortran
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://ourcodingclub.github.io/tutorials/fortran-intro/
+🌍 Scraping content from: https://ourcodingclub.github.io/tutorials/fortran-intro/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Scratch...
+⏳ Sleeping for 7.21 seconds before searching...
+Found url: https://scratch.mit.edu/about
+🌍 Scraping content from: https://scratch.mit.edu/about
+Text too short. Skipping...
+❌ Error fetching content from https://scratch.mit.edu/about:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://scratch.mit.edu/about is most likely garbage.
+
+Found url: https://en.wikipedia.org/wiki/Scratch_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Scratch_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.create-learn.us/blog/what-is-scratch-programming/
+🌍 Scraping content from: https://www.create-learn.us/blog/what-is-scratch-programming/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/
+🌍 Scraping content from: https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Rust...
+⏳ Sleeping for 6.71 seconds before searching...
+Found url: https://doc.rust-lang.org/book/ch00-00-introduction.html
+🌍 Scraping content from: https://doc.rust-lang.org/book/ch00-00-introduction.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Rust_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Rust_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://medium.com/@codilime/introduction-to-the-rust-programming-language-getting-started-edbb474f9d5e
+🌍 Scraping content from: https://medium.com/@codilime/introduction-to-the-rust-programming-language-getting-started-edbb474f9d5e
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: PHP...
+⏳ Sleeping for 7.49 seconds before searching...
+Found url: https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwiojrCUsPaLAxU4yDgGHdngGgMQ_B16BAgLEAI
+🌍 Scraping content from: https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwiojrCUsPaLAxU4yDgGHdngGgMQ_B16BAgLEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwiojrCUsPaLAxU4yDgGHdngGgMQ_B16BAgLEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwiojrCUsPaLAxU4yDgGHdngGgMQ_B16BAgLEAI is most likely garbage.
+
+Found url: https://codeinstitute.net/global/blog/what-is-php-programming/
+🌍 Scraping content from: https://codeinstitute.net/global/blog/what-is-php-programming/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/php/php_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/php/php_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/PHP
+🌍 Scraping content from: https://en.wikipedia.org/wiki/PHP
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: R...
+⏳ Sleeping for 8.77 seconds before searching...
+Found url: https://www.r-project.org/about.html
+🌍 Scraping content from: https://www.r-project.org/about.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/R_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/R_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/r-programming-language-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/r-programming-language-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: MATLAB...
+⏳ Sleeping for 9.29 seconds before searching...
+Found url: https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwil_KassPaLAxWozzgGHcvVANEQ_B16BAgFEAI
+🌍 Scraping content from: https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwil_KassPaLAxWozzgGHcvVANEQ_B16BAgFEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwil_KassPaLAxWozzgGHcvVANEQ_B16BAgFEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwil_KassPaLAxWozzgGHcvVANEQ_B16BAgFEAI is most likely garbage.
+
+Found url: https://www.mathworks.com/products/matlab/programming-with-matlab.html
+🌍 Scraping content from: https://www.mathworks.com/products/matlab/programming-with-matlab.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.mathworks.com/help/matlab/language-fundamentals.html
+🌍 Scraping content from: https://www.mathworks.com/help/matlab/language-fundamentals.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.mathworks.com/help/matlab/entering-commands.html
+🌍 Scraping content from: https://www.mathworks.com/help/matlab/entering-commands.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Assembly language...
+⏳ Sleeping for 8.70 seconds before searching...
+Found url: https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwjUmqO3sPaLAxWXzDgGHWHaK-cQ_B16BAgCEAI
+🌍 Scraping content from: https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwjUmqO3sPaLAxWXzDgGHWHaK-cQ_B16BAgCEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwjUmqO3sPaLAxWXzDgGHWHaK-cQ_B16BAgCEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwjUmqO3sPaLAxWXzDgGHWHaK-cQ_B16BAgCEAI is most likely garbage.
+
+Found url: https://www.investopedia.com/terms/a/assembly-language.asp
+🌍 Scraping content from: https://www.investopedia.com/terms/a/assembly-language.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Assembly_language
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Assembly_language
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/X86_assembly_language
+🌍 Scraping content from: https://en.wikipedia.org/wiki/X86_assembly_language
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: COBOL...
+⏳ Sleeping for 9.24 seconds before searching...
+Found url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwishLrGsPaLAxXYyzgGHa1PAFkQ_B16BAgIEAI
+🌍 Scraping content from: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwishLrGsPaLAxXYyzgGHa1PAFkQ_B16BAgIEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwishLrGsPaLAxXYyzgGHa1PAFkQ_B16BAgIEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwishLrGsPaLAxXYyzgGHa1PAFkQ_B16BAgIEAI is most likely garbage.
+
+Found url: https://en.wikipedia.org/wiki/COBOL
+🌍 Scraping content from: https://en.wikipedia.org/wiki/COBOL
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ibm.com/think/topics/cobol
+🌍 Scraping content from: https://www.ibm.com/think/topics/cobol
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ibm.com/think/topics/cobol#Overview
+🌍 Scraping content from: https://www.ibm.com/think/topics/cobol#Overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Ruby...
+⏳ Sleeping for 8.73 seconds before searching...
+Found url: https://www.oracle.com/developer/what-is-ruby-for-developers/
+🌍 Scraping content from: https://www.oracle.com/developer/what-is-ruby-for-developers/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Ruby_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Ruby_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ruby-lang.org/en/
+🌍 Scraping content from: https://www.ruby-lang.org/en/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Prolog...
+⏳ Sleeping for 9.05 seconds before searching...
+Found url: https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_prolog.jpg?sa=X&ved=2ahUKEwjGhpLksPaLAxXTxjgGHWxgJJQQ_B16BAgLEAI
+🌍 Scraping content from: https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_prolog.jpg?sa=X&ved=2ahUKEwjGhpLksPaLAxXTxjgGHWxgJJQQ_B16BAgLEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_prolog.jpg?sa=X&ved=2ahUKEwjGhpLksPaLAxXTxjgGHWxgJJQQ_B16BAgLEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://builtin.com/sites/www.builtin.com/files/styles/ckeditor_optimize/public/inline-images/1_prolog.jpg?sa=X&ved=2ahUKEwjGhpLksPaLAxXTxjgGHWxgJJQQ_B16BAgLEAI is most likely garbage.
+
+Found url: https://builtin.com/software-engineering-perspectives/prolog
+🌍 Scraping content from: https://builtin.com/software-engineering-perspectives/prolog
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/prolog-an-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/prolog-an-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Prolog
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Prolog
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Detailed info scraped
+Building pages
+Building front page
+================================================================================
+TIME: 2025-03-06 22:23:06
+Starting. Scraping TIOBE
+TIOBE data scraped
+Basic info scraped: 
+ Now that the world needs to crunch more and more numbers per second, and hardware is not evolving fast enough, speed of programs is getting important. Having said this, it is not surprising that the fast programming languages are gaining ground in the TIOBE index. Programming language C++ climbed to position 2 recently, Go has become a steady top 10 player, and Rust is at an all-time high of 1.47%. Moreover, fast languages Mojo and Zig are knocking on the top 50 door at positions #51 and #56, respectively.
+You might wonder how Python, known as a slow language, is able to survive next to these race monsters. This is because there is another driver nowadays except for performance: how easy is it to learn a new programming language. Apart from crunching more numbers, the world also needs more programmers. Developing applications completely in AI is not possible yet. Hence, the demand for new programmers is still very high. Since the number of graduated software engineers is lower than is needed, all kind of non-software engineers are jumping on the programming bandwagon, and their favorite language is Python. This is why Python is here to stay.
+The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular web sites Google, Amazon, Wikipedia, Bing and more than 20 others are used to calculate the ratings. It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
+The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.
+Language list scraped: 
+ [<langinfo.LangMetadata object at 0x76d4ef26eba0>, <langinfo.LangMetadata object at 0x76d4ef26ec60>, <langinfo.LangMetadata object at 0x76d4ef26ed20>, <langinfo.LangMetadata object at 0x76d4ef26ede0>, <langinfo.LangMetadata object at 0x76d4ef26eea0>, <langinfo.LangMetadata object at 0x76d4ef26ef60>, <langinfo.LangMetadata object at 0x76d4ef26f020>, <langinfo.LangMetadata object at 0x76d4ef26f0e0>, <langinfo.LangMetadata object at 0x76d4ef26f200>, <langinfo.LangMetadata object at 0x76d4ef26f290>, <langinfo.LangMetadata object at 0x76d4ef26f350>, <langinfo.LangMetadata object at 0x76d4ef26f410>, <langinfo.LangMetadata object at 0x76d4ef26f4d0>, <langinfo.LangMetadata object at 0x76d4ef26f590>, <langinfo.LangMetadata object at 0x76d4ef26f650>, <langinfo.LangMetadata object at 0x76d4ef26f740>, <langinfo.LangMetadata object at 0x76d4ef26f7d0>, <langinfo.LangMetadata object at 0x76d4ef26f890>, <langinfo.LangMetadata object at 0x76d4ef26f950>, <langinfo.LangMetadata object at 0x76d4ef26fa10>]
+Searching for detailed info about languages
+🔎 Searching for info on: Python...
+⏳ Sleeping for 6.90 seconds before searching...
+================================================================================
+TIME: 2025-03-06 22:23:50
+Starting. Scraping TIOBE
+TIOBE data scraped
+Basic info scraped: 
+ Now that the world needs to crunch more and more numbers per second, and hardware is not evolving fast enough, speed of programs is getting important. Having said this, it is not surprising that the fast programming languages are gaining ground in the TIOBE index. Programming language C++ climbed to position 2 recently, Go has become a steady top 10 player, and Rust is at an all-time high of 1.47%. Moreover, fast languages Mojo and Zig are knocking on the top 50 door at positions #51 and #56, respectively.
+You might wonder how Python, known as a slow language, is able to survive next to these race monsters. This is because there is another driver nowadays except for performance: how easy is it to learn a new programming language. Apart from crunching more numbers, the world also needs more programmers. Developing applications completely in AI is not possible yet. Hence, the demand for new programmers is still very high. Since the number of graduated software engineers is lower than is needed, all kind of non-software engineers are jumping on the programming bandwagon, and their favorite language is Python. This is why Python is here to stay.
+The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors. Popular web sites Google, Amazon, Wikipedia, Bing and more than 20 others are used to calculate the ratings. It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
+The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system. The definition of the TIOBE index can be found here.
+Language list scraped: 
+
+Python, 23.88%, 1, 1, +8.72%, ↔
+C++, 11.37%, 2, 3, +0.84%, ↑
+Java, 10.66%, 3, 4, +1.79%, ↑
+C, 9.84%, 4, 2, -1.14%, ↓
+C#, 4.12%, 5, 5, -3.41%, ↔
+JavaScript, 3.78%, 6, 6, +0.61%, ↔
+SQL, 2.87%, 7, 7, +1.04%, ↔
+Go, 2.26%, 8, 8, +0.53%, ↔
+Delphi/Object Pascal, 2.18%, 9, 12, +0.78%, ↑
+Visual Basic, 2.04%, 10, 9, +0.52%, ↓
+Fortran, 1.75%, 11, 11, +0.35%, ↔
+Scratch, 1.54%, 12, 15, +0.36%, ↑
+Rust, 1.47%, 13, 18, +0.42%, ⇑
+PHP, 1.14%, 14, 10, -0.37%, ⇓
+R, 1.06%, 15, 21, +0.07%, ⇑
+MATLAB, 0.98%, 16, 13, -0.28%, ↓
+Assembly language, 0.95%, 17, 14, -0.24%, ↓
+COBOL, 0.82%, 18, 19, -0.18%, ↑
+Ruby, 0.82%, 19, 20, -0.17%, ↑
+Prolog, 0.80%, 20, 24, +0.03%, ⇑
+Searching for detailed info about languages
+🔎 Searching for info on: Python...
+⏳ Sleeping for 8.10 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Python_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Python_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.python.org/doc/essays/blurb/
+🌍 Scraping content from: https://www.python.org/doc/essays/blurb/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/python/python_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/python/python_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C++...
+⏳ Sleeping for 9.66 seconds before searching...
+Found url: https://www.w3schools.com/cpp/cpp_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/cpp/cpp_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.tutorialspoint.com/cplusplus/cpp_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/cplusplus/cpp_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/introduction-to-c-programming-language/
+🌍 Scraping content from: https://www.geeksforgeeks.org/introduction-to-c-programming-language/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Java...
+⏳ Sleeping for 9.69 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Java_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Java_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/java/java_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/java/java_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.tutorialspoint.com/java/java_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/java/java_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C...
+⏳ Sleeping for 6.64 seconds before searching...
+Found url: https://www.tutorialspoint.com/cprogramming/c_overview.htm
+🌍 Scraping content from: https://www.tutorialspoint.com/cprogramming/c_overview.htm
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/C_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/C_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/c/c_intro.php
+🌍 Scraping content from: https://www.w3schools.com/c/c_intro.php
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: C#...
+⏳ Sleeping for 7.44 seconds before searching...
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-java-developers
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-javascript-developers
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/tips-for-javascript-developers
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: JavaScript...
+⏳ Sleeping for 9.43 seconds before searching...
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#data_types
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#data_types
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#grammar
+🌍 Scraping content from: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview#grammar
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: SQL...
+⏳ Sleeping for 9.59 seconds before searching...
+Found url: https://www.w3schools.com/sql/sql_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/sql/sql_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/SQL
+🌍 Scraping content from: https://en.wikipedia.org/wiki/SQL
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learntocodewith.me/posts/sql-guide/
+🌍 Scraping content from: https://learntocodewith.me/posts/sql-guide/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Go...
+⏳ Sleeping for 9.67 seconds before searching...
+Found url: https://go.dev/
+🌍 Scraping content from: https://go.dev/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Go_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Go_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/go-programming-language-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/go-programming-language-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Delphi/Object Pascal...
+⏳ Sleeping for 8.38 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Delphi_(software)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Delphi_(software)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Object_Pascal
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Object_Pascal
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/History_of_Delphi_(software)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/History_of_Delphi_(software)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Visual Basic...
+⏳ Sleeping for 9.89 seconds before searching...
+Found url: https://www.techtarget.com/whatis/definition/Visual-Basic-VB
+🌍 Scraping content from: https://www.techtarget.com/whatis/definition/Visual-Basic-VB
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
+🌍 Scraping content from: https://learn.microsoft.com/en-us/dotnet/visual-basic/reference/language-specification/introduction
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Visual_Basic_(classic)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Visual_Basic_(classic)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Fortran...
+⏳ Sleeping for 6.63 seconds before searching...
+Found url: https://fortran-lang.org/
+🌍 Scraping content from: https://fortran-lang.org/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Fortran
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Fortran
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://ourcodingclub.github.io/tutorials/fortran-intro/
+🌍 Scraping content from: https://ourcodingclub.github.io/tutorials/fortran-intro/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Scratch...
+⏳ Sleeping for 8.63 seconds before searching...
+Found url: https://scratch.mit.edu/about
+🌍 Scraping content from: https://scratch.mit.edu/about
+Text too short. Skipping...
+❌ Error fetching content from https://scratch.mit.edu/about:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://scratch.mit.edu/about is most likely garbage.
+
+Found url: https://en.wikipedia.org/wiki/Scratch_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Scratch_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.create-learn.us/blog/what-is-scratch-programming/
+🌍 Scraping content from: https://www.create-learn.us/blog/what-is-scratch-programming/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/
+🌍 Scraping content from: https://www.geeksforgeeks.org/introduction-to-scratch-programming-2/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Rust...
+⏳ Sleeping for 8.01 seconds before searching...
+Found url: https://doc.rust-lang.org/book/ch00-00-introduction.html
+🌍 Scraping content from: https://doc.rust-lang.org/book/ch00-00-introduction.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Rust_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Rust_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.rust-lang.org/
+🌍 Scraping content from: https://www.rust-lang.org/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: PHP...
+⏳ Sleeping for 6.24 seconds before searching...
+Found url: https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwi_2KWns_aLAxUGzjgGHUdPED4Q_B16BAgHEAI
+🌍 Scraping content from: https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwi_2KWns_aLAxUGzjgGHUdPED4Q_B16BAgHEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwi_2KWns_aLAxUGzjgGHUdPED4Q_B16BAgHEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://d3m1rm8xuevz4q.cloudfront.net/wp-content/uploads/2014/08/An-Introduction-to-PHP-for-Beginners.jpg.webp?sa=X&ved=2ahUKEwi_2KWns_aLAxUGzjgGHUdPED4Q_B16BAgHEAI is most likely garbage.
+
+Found url: https://codeinstitute.net/global/blog/what-is-php-programming/
+🌍 Scraping content from: https://codeinstitute.net/global/blog/what-is-php-programming/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.w3schools.com/php/php_intro.asp
+🌍 Scraping content from: https://www.w3schools.com/php/php_intro.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/PHP
+🌍 Scraping content from: https://en.wikipedia.org/wiki/PHP
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: R...
+⏳ Sleeping for 7.41 seconds before searching...
+Found url: https://www.r-project.org/about.html
+🌍 Scraping content from: https://www.r-project.org/about.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/R_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/R_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/r-programming-language-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/r-programming-language-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: MATLAB...
+⏳ Sleeping for 7.72 seconds before searching...
+Found url: https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwjh77HBs_aLAxXz4jgGHZVNAMEQ_B16BAgJEAI
+🌍 Scraping content from: https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwjh77HBs_aLAxXz4jgGHZVNAMEQ_B16BAgJEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwjh77HBs_aLAxXz4jgGHZVNAMEQ_B16BAgJEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://www.mathworks.com/products/matlab/programming-with-matlab/_jcr_content/mainParsys/band_1981140664_copy_681376131/mainParsys/columns/2/image_1551718569_cop.adapt.full.medium.gif/1736965205950.gif?sa=X&ved=2ahUKEwjh77HBs_aLAxXz4jgGHZVNAMEQ_B16BAgJEAI is most likely garbage.
+
+Found url: https://www.mathworks.com/products/matlab/programming-with-matlab.html
+🌍 Scraping content from: https://www.mathworks.com/products/matlab/programming-with-matlab.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.mathworks.com/help/matlab/language-fundamentals.html
+🌍 Scraping content from: https://www.mathworks.com/help/matlab/language-fundamentals.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.mathworks.com/help/matlab/entering-commands.html
+🌍 Scraping content from: https://www.mathworks.com/help/matlab/entering-commands.html
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Assembly language...
+⏳ Sleeping for 9.49 seconds before searching...
+Found url: https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwj9q6fOs_aLAxU14jgGHb0oApcQ_B16BAgHEAI
+🌍 Scraping content from: https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwj9q6fOs_aLAxU14jgGHb0oApcQ_B16BAgHEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwj9q6fOs_aLAxU14jgGHb0oApcQ_B16BAgHEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://www.investopedia.com/thmb/iQF7e3NvVbuc4CQMaFS-ieWX4Nw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/assembly-language.asp-final-664011aa8a8d4774ab6538e594961475.png?sa=X&ved=2ahUKEwj9q6fOs_aLAxU14jgGHb0oApcQ_B16BAgHEAI is most likely garbage.
+
+Found url: https://www.investopedia.com/terms/a/assembly-language.asp
+🌍 Scraping content from: https://www.investopedia.com/terms/a/assembly-language.asp
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Assembly_language
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Assembly_language
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/X86_assembly_language
+🌍 Scraping content from: https://en.wikipedia.org/wiki/X86_assembly_language
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: COBOL...
+⏳ Sleeping for 8.30 seconds before searching...
+Found url: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwimlsvZs_aLAxXUwjgGHbizADAQ_B16BAgLEAI
+🌍 Scraping content from: https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwimlsvZs_aLAxXUwjgGHbizADAQ_B16BAgLEAI
+Text contains mostly non-alphabetic characters. Skipping...
+❌ Error fetching content from https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwimlsvZs_aLAxXUwjgGHbizADAQ_B16BAgLEAI:
+Traceback (most recent call last):
+  File "/home/lukasz/PycharmProjects/WebScraper/scraping/general_scraper.py", line 112, in scrape_text
+    raise Exception(f"Text from {url} is most likely garbage.")
+Exception: Text from https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/COBOL_Report_Apr60.djvu/page1-1200px-COBOL_Report_Apr60.djvu.jpg?sa=X&ved=2ahUKEwimlsvZs_aLAxXUwjgGHbizADAQ_B16BAgLEAI is most likely garbage.
+
+Found url: https://en.wikipedia.org/wiki/COBOL
+🌍 Scraping content from: https://en.wikipedia.org/wiki/COBOL
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ibm.com/think/topics/cobol
+🌍 Scraping content from: https://www.ibm.com/think/topics/cobol
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ibm.com/think/topics/cobol#Overview
+🌍 Scraping content from: https://www.ibm.com/think/topics/cobol#Overview
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Ruby...
+⏳ Sleeping for 9.47 seconds before searching...
+Found url: https://en.wikipedia.org/wiki/Ruby_(programming_language)
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Ruby_(programming_language)
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ruby-lang.org/en/
+🌍 Scraping content from: https://www.ruby-lang.org/en/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.ruby-lang.org/en/about/
+🌍 Scraping content from: https://www.ruby-lang.org/en/about/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+🔎 Searching for info on: Prolog...
+⏳ Sleeping for 8.10 seconds before searching...
+Found url: https://builtin.com/software-engineering-perspectives/prolog
+🌍 Scraping content from: https://builtin.com/software-engineering-perspectives/prolog
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://www.geeksforgeeks.org/prolog-an-introduction/
+🌍 Scraping content from: https://www.geeksforgeeks.org/prolog-an-introduction/
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Found url: https://en.wikipedia.org/wiki/Prolog
+🌍 Scraping content from: https://en.wikipedia.org/wiki/Prolog
+Text is good. Proceeding...
+GOOD TEXT FOUND
+Detailed info scraped
+Building pages
+Building front page
+Building list page
+================================================================================
+TIME: 2025-03-06 22:43:16
+Starting. Scraping TIOBE
+TIOBE data scraped
+Basic info scraped: 
+ ```markdown
+# The Rise of Fast Programming Languages
+
+As the world demands an increasing amount of processing power, the speed at which programs run is becoming crucial. With hardware not evolving rapidly enough, it's no surprise that fast programming languages are gaining popularity in the TIOBE index. Notably:
+
+- **C++** has recently climbed to position 2.
+- **Go** has secured a steady presence in the top 10.
+- **Rust** is at an all-time high of **1.47%**.
+- **Mojo** and **Zig** are also making waves, positioned at #51 and #56, respectively.
+
+## The Case for Python
+
+You might wonder how **Python**, often labeled as a slower language, continues to thrive alongside these high-speed contenders. The answer lies in an important factor beyond performance: **ease of learning a new programming language**. 
+
+While the world requires more efficient data processing, it also has an ongoing need for an increasing number of programmers. Currently, developing applications solely through AI is not feasible, which keeps the demand for new software engineers high. Since the number of graduates in this field is not meeting demand, engineers from other backgrounds are embracing programming, with Python being their language of choice. This trend is why Python remains a staple in the programming community.
+
+## The TIOBE Index Explained
+
+The **TIOBE Programming Community Index** serves as a gauge for the popularity of programming languages. Updated monthly, the index relies on various metrics, including:
+
+- The number of skilled engineers worldwide
+- The availability of courses
+- The presence of third-party vendors
+
+It aggregates data from many popular websites such as **Google**, **Amazon**, **Wikipedia**, and **Bing**, among others. 
+
+It’s important to note that the TIOBE index does not determine the "best" programming language or identify the language with the most lines of code.
+
+### Use of the TIOBE Index
+
+The TIOBE index can help developers assess whether their programming skills are current or assist in making strategic decisions when selecting a programming language for new software development projects. 
+
+For more details, you can find the [definition of the TIOBE index here](https://www.tiobe.com/tiobe-index/).
+```
+
+Language list scraped: 
+
+Python, 23.88%, 1, 1, +8.72%, ↔
+C++, 11.37%, 2, 3, +0.84%, ↑
+Java, 10.66%, 3, 4, +1.79%, ↑
+C, 9.84%, 4, 2, -1.14%, ↓
+C#, 4.12%, 5, 5, -3.41%, ↔
+JavaScript, 3.78%, 6, 6, +0.61%, ↔
+SQL, 2.87%, 7, 7, +1.04%, ↔
+Go, 2.26%, 8, 8, +0.53%, ↔
+Delphi/Object Pascal, 2.18%, 9, 12, +0.78%, ↑
+Visual Basic, 2.04%, 10, 9, +0.52%, ↓
+Fortran, 1.75%, 11, 11, +0.35%, ↔
+Scratch, 1.54%, 12, 15, +0.36%, ↑
+Rust, 1.47%, 13, 18, +0.42%, ⇑
+PHP, 1.14%, 14, 10, -0.37%, ⇓
+R, 1.06%, 15, 21, +0.07%, ⇑
+MATLAB, 0.98%, 16, 13, -0.28%, ↓
+Assembly language, 0.95%, 17, 14, -0.24%, ↓
+COBOL, 0.82%, 18, 19, -0.18%, ↑
+Ruby, 0.82%, 19, 20, -0.17%, ↑
+Prolog, 0.80%, 20, 24, +0.03%, ⇑
+Searching for detailed info about languages
+🔎 Searching for info on: Python...
+⏳ Sleeping for 6.14 seconds before searching...
+❌ Error fetching Google Search results: HTTP Error 429: Too Many Requests
+🔎 Searching for info on: C++...
+⏳ Sleeping for 8.67 seconds before searching...
+❌ Error fetching Google Search results: HTTP Error 429: Too Many Requests
+🔎 Searching for info on: Java...
+⏳ Sleeping for 7.89 seconds before searching...
+❌ Error fetching Google Search results: HTTP Error 429: Too Many Requests
+🔎 Searching for info on: C...
+⏳ Sleeping for 9.79 seconds before searching...
+❌ Error fetching Google Search results: HTTP Error 429: Too Many Requests
+🔎 Searching for info on: C#...
+⏳ Sleeping for 6.95 seconds before searching...
+❌ Error fetching Google Search results: HTTP Error 429: Too Many Requests
+🔎 Searching for info on: JavaScript...
+⏳ Sleeping for 9.48 seconds before searching...
