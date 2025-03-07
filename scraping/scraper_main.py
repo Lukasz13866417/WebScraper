@@ -28,15 +28,20 @@ def get_language_info(lang_metadata_list):
 
     return lang_info_list
 
-
 def save_to_file(lang_info_list, filename=os.path.join(os.path.dirname(__file__), "..", "data", "scraped_languages.txt")):
     """
     Saves a list of LangInfo objects to a text file.
+    Ensures the directory exists before writing.
     """
+    # Ensure the directory exists
+    os.makedirs(os.path.dirname(filename), exist_ok=True)
+
+    # Write data to the file
     with open(filename, "w", encoding="utf-8") as file:
         for lang_info in lang_info_list:
             file.write(str(lang_info) + "\n")
             file.write("=" * 80 + "\n")  # Separator for readability
+
     LOG(f"✅ Data saved to {os.path.abspath(filename)}")
 
 def load_from_file(filename=os.path.join(os.path.dirname(__file__), "..", "data", "scraped_languages.txt")):

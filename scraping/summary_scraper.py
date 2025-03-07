@@ -10,7 +10,7 @@ def query_openrouter(prompt):
     response = requests.post(
         url="https://openrouter.ai/api/v1/chat/completions",
         headers={
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer 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",
             "Content-Type": "application/json",
         },
         data=json.dumps({
@@ -57,6 +57,7 @@ def generate_long_description(text, language_name):
     Below is collected content from various sources about {language_name}.
     Generate a single concise and informative summary based on these sources (max 20 sentences).
     Use Markdown.
+    At the very end, add links to the original source. Maybe they should be in smaller font than the rest
     Content:
     {text}
     Long Description:

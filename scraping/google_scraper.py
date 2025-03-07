@@ -9,7 +9,7 @@ UNREADABLE_CONTENT = ["azure","aws",".pdf", ".doc", ".docx", ".ppt", ".pptx", ".
 
 def search_google(query, max_results=3):
     """
-    Uses `googlesearch` to fetch data from URLs for a given query while avoiding garbage websites.
+    Uses googlesearch to fetch data from URLs for a given query while avoiding garbage websites.
     Includes a delay between searches and rotates user-agents to prevent detection.
 
     :param query: Search term
@@ -43,6 +43,3 @@ def search_google(query, max_results=3):
     except Exception as e:
         LOG(f"❌ Error fetching Google Search results: {e}")
         return []
-
-
-#LOG(search_google("Scratch programming language overview"))

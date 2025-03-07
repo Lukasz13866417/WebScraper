@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6480c7c1-dc6e-4c50-8bba-ca8b03e46b98" name="Changes" comment="" />
+    <list default="true" id="6480c7c1-dc6e-4c50-8bba-ca8b03e46b98" name="Changes" comment="Whole project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/latest_run.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/latest_run.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/markdown/pagemaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/pagemaker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/google_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/google_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/scraper_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/scraper_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/summary_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/summary_scraper.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +28,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Lukasz13866417"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Lukasz13866417/WebScraper",
+    "accountId": "97783678-84ef-4c55-88a2-4949d7700662"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
@@ -30,34 +50,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.general_scraper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generalscraper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.google_scraper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.googlescraper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.langinfo.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.scraper_main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.searchresults.executor&quot;: &quot;Run&quot;,
-    &quot;Python.summary_scraper.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tiobe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tmp.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/lukasz/PycharmProjects/WebScraper/main.py&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.general_scraper.executor": "Run",
+    "Python.generalscraper.executor": "Run",
+    "Python.google_scraper.executor": "Run",
+    "Python.googlescraper.executor": "Run",
+    "Python.langinfo.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.scraper_main.executor": "Run",
+    "Python.searchresults.executor": "Run",
+    "Python.summary_scraper.executor": "Run",
+    "Python.tiobe.executor": "Run",
+    "Python.tmp.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/lukasz/PycharmProjects/WebScraper",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/languages" />
       <recent name="$PROJECT_DIR$/main" />
     </key>
   </component>
@@ -113,12 +134,25 @@
       <workItem from="1741215683644" duration="15520000" />
       <workItem from="1741293961226" duration="229000" />
       <workItem from="1741294202202" duration="863000" />
-      <workItem from="1741295070958" duration="2421000" />
+      <workItem from="1741295070958" duration="8929000" />
     </task>
+    <task id="LOCAL-00001" summary="Whole project">
+      <option name="closed" value="true" />
+      <created>1741297626114</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741297626114</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Whole project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Whole project" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/WebScraper$google_scraper.coverage" NAME="google_scraper Coverage Results" MODIFIED="1741258527383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />
@@ -128,7 +162,7 @@
     <SUITE FILE_PATH="coverage/WebScraper$langinfo.coverage" NAME="langinfo Coverage Results" MODIFIED="1741182027968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main" />
     <SUITE FILE_PATH="coverage/WebScraper$tiobe.coverage" NAME="tiobe Coverage Results" MODIFIED="1741183214431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />
     <SUITE FILE_PATH="coverage/WebScraper$googlescraper.coverage" NAME="googlescraper Coverage Results" MODIFIED="1741200445718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />
-    <SUITE FILE_PATH="coverage/WebScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1741297396264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/WebScraper$main.coverage" NAME="main Coverage Results" MODIFIED="1741306140264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/WebScraper$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1741204674923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />
     <SUITE FILE_PATH="coverage/WebScraper$scraper_main.coverage" NAME="scraper_main Coverage Results" MODIFIED="1741291171221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />
     <SUITE FILE_PATH="coverage/WebScraper$summary_scraper.coverage" NAME="summary_scraper Coverage Results" MODIFIED="1741209686296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/main/scraping" />

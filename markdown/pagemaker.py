@@ -9,7 +9,7 @@ def build_front_page(site_info):
     :param site_info: Dictionary containing project information.
     """
     content = site_info
-    content += "[View Language List](languages.md)\n"
+    content += "\\[View Language List](languages.md)\n"
 
     save_markdown("./pages/index.md", content)
 
@@ -23,7 +23,7 @@ def build_list_page(languages):
     content = "# Programming Languages\n\n"
 
     for lang in languages:
-        lang_filename = f"./pages/languages/{lang.metadata.name.replace(' ', '_')}.md"
+        lang_filename = f"{lang.metadata.name.replace(' ', '_')}.md"
         content += f"## [{lang.metadata.name}]({lang_filename})\n"
         content += f"- **Popularity**: {lang.metadata.popularity}\n"
         content += f"- **Rank 2025**: {lang.metadata.rank2025} | **Rank 2024**: {lang.metadata.rank2024}\n"
@@ -38,7 +38,7 @@ def build_language_page(lang):
 
     :param lang: LangInfo object with metadata, short description, and long description.
     """
-    lang_filename = f"./pages/languages/{lang.metadata.name.replace(' ', '_')}.md"
+    lang_filename = f"{lang.metadata.name.replace(' ', '_')}.md"
 
     content = f"# {lang.metadata.name}\n\n"
     content += f"## Overview\n\n{lang.short_description}\n\n"
