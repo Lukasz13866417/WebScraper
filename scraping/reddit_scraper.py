@@ -10,7 +10,7 @@ def find_reddit_meme(language):
     if "Delphi" in language:
         language = "Object Pascal"
 
-    # Properly encode the language for search (handling special characters like C++ and C#)
+    # Encode the string (handling special characters like C++ and C#)
     encoded_language = quote(language)
     search_url = f"https://www.reddit.com/search/?q={encoded_language}%20programming%20meme&sort=relevance&t=all"
     if language == "R":
@@ -29,7 +29,7 @@ def find_reddit_meme(language):
 
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Look for post links with the correct data attribute
+    # Look for post links. They have certain data attributes
     post_links = []
     for link in soup.find_all('a', {'data-testid': 'post-title'}, href=True):
         href = link['href']

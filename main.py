@@ -1,4 +1,4 @@
-from scraping.scraper_main import save_to_file, load_from_file
+from scraping.scraper_main import save_to_file
 from scraping.openrouter import generate_markdown_from_ready_text
 from scraping.scraper_main import get_language_info
 from scraping.tiobe_scraper import scrapeTIOBE

@@ -5,43 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6480c7c1-dc6e-4c50-8bba-ca8b03e46b98" name="Changes" comment="Organize imports for main.py">
-      <change afterPath="$PROJECT_DIR$/scraping/openrouter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scraping/reddit_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/scraped_languages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/scraped_languages.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/langinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/langinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/latest_run.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/latest_run.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/markdown/pagemaker.py" beforeDir="false" afterPath="$PROJECT_DIR$/markdown/pagemaker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Assembly_language.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/C#.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/C++.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/C.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/COBOL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Fortran.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Go.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Java.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/JavaScript.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/MATLAB.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Object_Pascal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/PHP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Prolog.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Python.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/R.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Ruby.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Rust.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/SQL.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Scratch.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/languages/Visual_Basic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/general_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/general_scraper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scraping/google_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/google_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/scraper_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/scraper_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/summary_scraper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/tiobe_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/tiobe_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraping/reddit_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/reddit_scraper.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,6 +137,7 @@
       <workItem from="1741333688925" duration="3142000" />
       <workItem from="1741447998601" duration="27416000" />
       <workItem from="1741477110072" duration="2540000" />
+      <workItem from="1741638542013" duration="79000" />
     </task>
     <task id="LOCAL-00001" summary="Whole project">
       <option name="closed" value="true" />
@@ -196,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741306559008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Organize imports for main.py">
+      <option name="closed" value="true" />
+      <created>1741638550887</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741638550887</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
