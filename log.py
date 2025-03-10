@@ -55,9 +55,9 @@ def CLEAR_CURRENT_LOG():
     if logged_this_time and os.path.exists(LOG_FILE_PATH):
         os.remove(LOG_FILE_PATH)
         logged_this_time = False  # Reset log tracking
-        print(f"🧹 Cleared current log file: {LOG_FILE_PATH}")
+        print(f"Cleared current log file: {LOG_FILE_PATH}")
     else:
-        print("ℹ️ No logs to clear for this session.")
+        print("No logs to clear for this session.")
 
 
 def CLEAR_ALL_LOG():
@@ -67,19 +67,19 @@ def CLEAR_ALL_LOG():
     log_dir = os.path.dirname(LOG_FILE_PATH)
 
     if not os.path.exists(log_dir):
-        print("ℹ️ No log directory found.")
+        print("No log directory found.")
         return
 
     log_files = glob.glob(os.path.join(log_dir, "*.log"))
 
     if not log_files:
-        print("ℹ️ No log files found to delete.")
+        print("No log files found to delete.")
         return
 
     for log_file in log_files:
         os.remove(log_file)
 
-    print(f"🧹 Cleared all logs in directory: {log_dir}")
+    print(f"Cleared all logs in directory: {log_dir}")
 
 
 def LOG(*args, sep=" ", end="\n", flush=False):

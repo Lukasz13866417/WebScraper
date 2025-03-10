@@ -4,13 +4,10 @@ from log import LOG
 
 
 def query_openrouter(prompt):
-    """
-    Sends a query to OpenRouter API and returns the response.
-    """
     response = requests.post(
         url="https://openrouter.ai/api/v1/chat/completions",
         headers={
-            "Authorization": "Bearer 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",
+            "Authorization": "Bearer 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",
             "Content-Type": "application/json",
         },
         data=json.dumps({
@@ -42,8 +39,9 @@ def query_openrouter(prompt):
 def generate_short_description(text, language_name):
 
     prompt = f"""
-    Below is collected content from various sources about {language_name}.
-    Generate a concise summary based on these sources (max 3 sentences). Use Markdown.
+    Below is webscraped content from various sources about {language_name}.
+    Generate a concise summary based ONLY on these sources (max 5 sentences). Use Markdown. In your summary, 
+    don't mention the sources themselves. 
     Content:
     {text}
     """
@@ -54,11 +52,14 @@ def generate_short_description(text, language_name):
 def generate_long_description(text, language_name):
 
     prompt = f"""
-    Below is collected content from various sources about {language_name}.
-    Generate a single concise and informative summary based on these sources (max 20 sentences).
-    Use Markdown.
-    At the very end, add links to the original source. Maybe they should be in smaller font than the rest
-    Content:
+    Below is webscraped content from various sources about {language_name}.
+    Generate an informative summary based ONLY on these sources. Max one A4 page long.
+    Use Markdown. At the very end of the article, put sources (only useful links). Instead of raw links,
+    put aliases displaying name of the website (e.g. wikipedia instead of www.wikipedia.org), redirecting to the source.
+    All links should be in smaller font than the rest. There might be sources in other languages. 
+    Remember to write everything in English.
+    Don't add any title e.g. "{language_name} overwiew". I will add the title manually.
+    Scraped Content:
     {text}
     Long Description:
     """

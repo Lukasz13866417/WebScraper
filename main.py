@@ -1,12 +1,12 @@
 from scraping.scraper_main import save_to_file, load_from_file
-from scraping.summary_scraper import generate_markdown_from_ready_text
+from scraping.openrouter import generate_markdown_from_ready_text
+from scraping.scraper_main import get_language_info
+from scraping.tiobe_scraper import scrapeTIOBE
+from markdown.pagemaker import build_front_page, build_list_page, build_language_page
+from log import LOG
 
 
 def main():
-    from scraping.scraper_main import get_language_info
-    from scraping.tiobe_scraper import scrapeTIOBE
-    from markdown.pagemaker import build_front_page, build_list_page, build_language_page
-    from log import LOG
 
     LOG("Starting. Scraping TIOBE")
     tiobe_data = scrapeTIOBE()
